@@ -114,7 +114,7 @@ export default function Footer() {
           viewport={{ once: true }}
         >
           <p className="text-gray-400 text-sm">
-  © {currentYear} Caldwell Construction Inc. All rights reserved.
+  © 2024 Caldwell Construction Inc. All rights reserved.
 </p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-[#D97E3A] transition-colors">
