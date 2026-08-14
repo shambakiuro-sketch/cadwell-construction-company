@@ -67,21 +67,22 @@ export default function AboutSection() {
             </div>
           </motion.div>
 
-          {/* Image placeholder */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="relative"
-          >
-            <div className="w-full aspect-square rounded-2xl bg-gradient-to-br from-[#1F3A93] to-[#D97E3A] shadow-2xl flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🏗️</div>
-                <p className="text-white font-bold">Professional Construction Services</p>
-              </div>
-            </div>
-          </motion.div>
+          {/* About image */}
+<motion.div
+  initial={{ opacity: 0, x: 50 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+  className="relative"
+>
+  <div className="w-full aspect-square rounded-2xl overflow-hidden shadow-2xl">
+    <img
+      src="/About.png"
+      alt="Caldwell Construction"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</motion.div>
         </div>
 
         {/* Stats section */}
