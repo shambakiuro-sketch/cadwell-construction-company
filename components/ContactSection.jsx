@@ -32,7 +32,7 @@ export default function ContactSection() {
         </svg>
       ),
       label: 'Phone',
-      value: '(351) 230-0018',
+      value: '(814) 218-8127',
     },
     {
       icon: (
