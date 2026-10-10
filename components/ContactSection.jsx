@@ -32,7 +32,7 @@ export default function ContactSection() {
         </svg>
       ),
       label: 'Phone',
-      value: '(814) 218-8127',
+      value: '(978) 285-9485',
     },
     {
       icon: (
